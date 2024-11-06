@@ -52,5 +52,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
+          image: yashsinghh/devops-docker
           push: true
           tags: user/app:latest
